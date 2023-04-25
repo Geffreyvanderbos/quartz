@@ -1,0 +1,34 @@
+.mermaid {
+    display: flex;
+    justify-content: center;
+    width: 160%;
+    position: relative;
+    left: -30%;
+    margin: 3em 0px 4em 0px;
+    font-family: var(--font-body) !important;
+}
+
+.label .nodeLabel {
+    color: var(--dark) !important;
+}
+
+.label .edgeLabel {
+    color: var(--dark) !important;
+    fill: var(--dark) !important;
+    background-color: var(--light) !important;
+}
+
+.node rect {
+    fill: transparent !important;
+    stroke: var(--dark) !important;
+    stroke-opacity: .2;
+}
+
+.marker {
+    fill: var(--dark) !important;
+    stroke: var(--dark) !important;
+}
+
+.edgePaths path {
+    stroke: var(--dark) !important;
+}

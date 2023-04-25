@@ -1,27 +1,13 @@
----
-title: 🪴 Quartz 3.3
-enableToc: false
----
+👋🏻 You've found my public notes. I take notes on everything that interests me. Some notes I share with the world. Read about my [[notes/My PKM Methodology|PKM methodology here]].
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+I'm Geffrey, a product manager with a design background and a passion for music. I believe in the power of collaboration and team dynamics to bring great ideas to life.
 
-1. Extremely fast natural-language [[notes/search]]
-2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
-5. Support for both Markdown Links and Wikilinks
+Currently, I'm devoting my weekends to [Vanaheim](https://getvanaheim.com), a software that helps independent musicians streamline their financial, release, tour, and equipment management processes.
 
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
+In my role at Comecer Netherlands, I leverage my expertise to maintain legacy software while simultaneously developing a user-centric radiopharmacy workflow management platform.
 
-## Get Started
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
+Previously, I headed an exceptional team of engineers and data scientists at Kaios.ai, where we crafted AI models to revolutionize infrastructure inventory.
 
-Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
+As a Product Designer at Bitfactory GmbH, I contributed to the creation of award-winning mobile apps and SaaS products.
 
-If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
-
-### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
-
+While not seeking new opportunities, I enjoy connecting with like-minded professionals. Feel free to connect with me on LinkedIn and Mastodon.

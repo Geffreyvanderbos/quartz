@@ -1,16 +1,16 @@
-name: Jacky Zhao
-enableToc: true
+name: Geffrey van der Bos
+enableToc: false
 openToc: false
 enableLinkPreview: true
-enableLatex: true
+enableLatex: false
 enableCodeBlockTitle: true
 enableCodeBlockCopy: true
 enableCallouts: true
-enableSPA: true
+enableSPA: false
 enableFooter: true
-enableContextualBacklinks: true
+enableContextualBacklinks: false
 enableRecentNotes: false
-enableGitHubEdit: true
+enableGitHubEdit: false
 enableMermaid: true
 GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
 search:
@@ -18,12 +18,11 @@ search:
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  Here, you'll find my notes on Product Management, PKM, and more. I'm Geffrey, a product manager with a design background and a passion for music. I believe in the power of collaboration and team dynamics to bring great ideas to life.
 page_title:
-  "🪴 Quartz 3.3"
+  "Geffrey's Blog"
 links:
-  - link_name: Twitter
-    link: https://twitter.com/_jzhao
-  - link_name: GitHub
-    link: https://github.com/jackyzha0
+  - link_name: Mastodon
+    link: https://pkm.social/@geffrey
+  - link_name: LinkedIn
+    link: https://www.linkedin.com/in/gvanderbos/
