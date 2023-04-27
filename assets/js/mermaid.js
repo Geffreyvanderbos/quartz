@@ -29149,6 +29149,6 @@ export {
   zt as w,
   Zt as x,
   Ur as y,
-  an as z
+  an as default,
 };
 //# sourceMappingURL=mermaid-eb8c45e6.js.map

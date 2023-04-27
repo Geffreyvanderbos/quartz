@@ -1,6 +1,8 @@
 <!-- set data/config yaml file based on website language -->
 {{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
 {{ $data := index $.Site.Data $config }}
+{{ $mermaid := resources.Get "js/mermaid.js" | resources.Fingerprint "md5" |
+  resources.Minify }}
 <head>
   <!-- Meta tags -->
   <meta charset="UTF-8" />
@@ -169,7 +171,8 @@
       {{if $data.enableMermaid | default $.Site.Data.config.enableMermaid}}
         var els = document.getElementsByClassName("mermaid");
         if (els.length > 0) {
-          import('https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs').then(
+          // import('https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs').then(
+          import('{{ $mermaid.Permalink }}').then(
             (obj) => {
               // init forces mermaid to render mermaid markdown without waiting
               // for DOMContentLoaded event
@@ -185,14 +188,6 @@
         const classNames = target.className.split(" ")
         const broken = classNames.includes("broken")
         const internal = classNames.includes("internal-link")
-        plausible("Link Click", {
-          props: {
-            href: target.href,
-            broken,
-            internal,
-            graph: false,
-          }
-        })
       }
 
       const links = document.querySelectorAll("a")

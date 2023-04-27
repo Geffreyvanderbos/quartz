@@ -1,7 +1,9 @@
 {{if $.Site.Data.config.enableMermaid}}
   {{ if .Page.Store.Get "hasMermaid" }}
+  <!-- {{ $mermaid := resources.Get "js/mermaid.js" | resources.Fingerprint "md5" |
+  resources.Minify }} -->
     <script type="module">
-      import mermaid from './assets/js/mermaid.js';
+      import mermaid from "{{ $mermaid.Permalink }}";
       mermaid.initialize({ startOnLoad: true });
     </script>
   {{ end }}
